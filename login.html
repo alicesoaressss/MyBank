@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>LOGIN</title>
+</head>
+<style>
+   {margin:0; padding:0;box-sizing: border-box;}
+
+   body{
+       background-color: #1E90FF;
+   }
+form{
+    background-color: white;
+    max-width: 500px;   
+    width: 70%;
+    padding: 20px;  
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 0;
+    border-radius:20px;
+    transform: translate(-50%,-50%);
+}
+form h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+form input[type=text],
+form input[type=password]{
+width: 100%;
+height: 45px;
+border: 1px solid #ccc;
+padding-left: 10px;
+margin: 10px 0;
+border: 0;
+border-radius:20px;
+background-color: #DCDCDC;
+}
+
+button {
+ width: 100%;
+height: 30px;
+cursor: pointer;
+background-color: black
+color: white;
+border: 0;
+border-radius:20px;
+transition:1s;
+}
+button:hover{
+    background-color: #A9A9A9;
+
+ }
+
+
+</style>
+
+
+<body>
+
+
+    <form>
+
+            <h3> ACESSO AO MYBANK</h3>
+            <input id="email" type="text" required nome="e-mail" placeholder="Digite seu E-mail" />
+            <input type="password"  nome="senha" required placeholder="Digite sua senha" />
+         <button> <a href="Menu.html"> Enviar</a></button> 
+    </form>
+   
+    <script>
+        var email = document.getElementById("email");
+           
+        email.addEventListener('focus', ()=>{;
+             email.style.borderColor = "black";
+        });
+        email.addEventListener('blue',()=>{;
+            email.style.borderColor = black;
+
+
+    </script>
+</body>
+</html>
