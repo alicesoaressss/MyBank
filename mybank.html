@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"
+    
+    <title> </title>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li> <a href = "#"> Início</a> </li>
+            <li> <a href = "#"> Contato</a> </li>
+            <li> <a href = "#"> Rewiews</a> </li>
+            <li> <a href = "#"> Sobre</a> </li>
+
+
+        </ul>
+
+
+    </div>
+
+<div id=conta>
+<p>
+
+</p>
+        <h3> MYBANK: SEMPRE MELHORANDO</h3>
+
+       
+        <img src="img/195488.png">
+</div>
+
+
+    <form method="post" action="mailto:anaalicesoares8@edu.unifor.br>
+
+        <fieldset class="grupo">
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
+
+        <!-- Campo de email com-->
+        <div class="campo">
+            <label for="Digite"><strong>Digite sua conta</strong></label>
+            <input type="password"  id="digite" name="digite"email" id="email" required>
+        </div>
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+
+        <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+        <div class="campo">
+            <label><strong>Qual seu tipo de conta?</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="frontend" checked>Conta Corrente
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Poupança
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Conta Digital
+            </label>
+        </div>
+
+        <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+        <div class="campo">
+            <label for="senioridade"><strong>Senioridade</strong></label>
+            <select id="senioridade" required>
+              <option selected disabled value="">Selecione</option>
+              <option>Adulto</option>
+              <option>Idoso</option>
+              <option>Menor de Idade</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+            <div id="check">
+                <label><strong>Selecione as opções que você usa para acessar nossos serviços:</strong></label><br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Celular">
+                <label for="tecnologia1"> Celular</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="Tablet">
+                <label for="tecnologia2"> Tablet</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Notebook">
+                <label for="tecnologia3"> Notebook</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Computador">
+                <label for="tecnologia4"> Computador</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Presencialmente">
+                <label for="tecnologia5"> Presencialmente</label>
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Ligando">
+                <label for="tecnologia6"> Ligando</label>
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Outros">
+                <label for="tecnologia7"> Outros</label>
+            </div>
+        </fieldset>
+
+        <!-- Caixa de texto -->
+        <div class="campo">
+            <br>
+            <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <!-- Botão para enviar o formulário -->
+        <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+    </formm>
+    
+    
+</body>
+</html>
